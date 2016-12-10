@@ -1,0 +1,37 @@
+// style.scss
+// ==============
+ 
+//Compass imports
+/*Underscore helps to pick up the right document*/
+@import "compass";
+@import "compass/reset";
+@import "compass/css3/box-shadow";
+@import "compass/css3/text-shadow";
+@import 'compass/css3/filter';
+@import "compass/css3/flexbox";
+@import "compass/css3/transition";
+
+//External Libraries
+@import "susy";
+@import "breakpoint";
+
+
+//Core partials
+@import "variables";
+@import "mixins";  /*Functions for doing thing*/
+@import "base";  /*Default css */
+@import "layout";  /*layout css */
+
+//Import Modules
+
+@import "modules/intro";
+@import "modules/nav";
+@import "modules/welcome";
+@import "modules/hotelinfo";
+@import "modules/rooms";
+@import "modules/dining";
+@import "modules/events";
+@import "modules/attraction";
+@import "modules/footer";
+
+
